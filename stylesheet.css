@@ -1,0 +1,109 @@
+/*CSS Stylesheet*/
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Averia Sans Libre', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+#wrapper {
+    width: 1180px;
+    margin: 0 auto;
+    color: white;
+     font-size: 30px;
+}
+.title {
+    height: 350px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 6px solid white;
+}
+#one {
+    width: 1180px;
+    background-color: lightblue;
+    height: 600px;
+    text-align: center;
+}
+#two  {
+    width: 1180px;
+    background-color: lightsalmon;
+    height: 600px;
+    text-align: center;
+}
+#three {
+    width: 1180px;
+    background-color: lightgoldenrodyellow;
+    height: 600px;
+    text-align: center;
+}
+#four {
+    width: 1180px;
+    background-color: lightpink;
+    height: 600px;
+    text-align: center;
+}
+#five {
+    width: 1180px;
+    background-color: lightskyblue;
+    height: 600px;
+    text-align: center;
+}
+#six {
+    width: 1180px;
+    background-color: lightgreen;
+    height: 600px;
+    text-align: center;
+}
+#seven {
+    width: 1180px;
+    background-color: lightcoral;
+    height: 600px;
+    text-align: center;
+}
+#eight {
+    width: 1180px;
+    background-color: lightseagreen;
+    height: 600px;
+    text-align: center;
+}
+#heart {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 300px;
+    margin-right: 50px;
+    z-index: 99;
+    animation: scale 6s infinite;
+}
+
+#one img, #two img, #three img, #four img, #five img, #six img, #seven img, #eight img {
+    max-width: 100%;
+    max-height: 600px;
+    position: relative;
+    z-index: 1;
+}
+.cap {
+ text-align: center;
+margin: 0 0;
+font-size: 30px;
+font-weight: 700;
+font-style: italic;
+z-index: 99;
+}
+h2 {
+    text-align: center;   
+}
+.spacer {
+    height: 100px;
+}
+@keyframes scale {
+    0%, 100% {
+        transform: scale(1)}
+    50% {
+        transform: scale(2)}
+}
+
+
+
